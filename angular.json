@@ -52,7 +52,13 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery.min.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/slick.min.js",
+              "src/assets/js/nouislider.min.js",
+              "src/assets/js/jquery.zoom.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -125,5 +131,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "f8b1e675-d4fe-4de7-a23a-3e4b475e8015"
   }
 }
